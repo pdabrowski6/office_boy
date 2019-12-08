@@ -36,7 +36,7 @@ RSpec.describe OfficeBoy::Mail do
               subject: attributes[:subject]
             }
           ],
-          headers: attributes[:substitutions]
+          substitutions: attributes[:substitutions]
         }
       ).and_return(response)
     end

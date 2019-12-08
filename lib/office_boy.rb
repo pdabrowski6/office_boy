@@ -1,6 +1,5 @@
 require 'rest-client'
 require 'json'
-require 'pry'
 
 require 'office_boy/errors/not_definied_subscription_list'
 require 'office_boy/errors/not_definied_api_key'

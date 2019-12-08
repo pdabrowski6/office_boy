@@ -21,7 +21,7 @@ module OfficeBoy
               subject: attributes[:subject]
             }
           ],
-          headers: attributes[:substitutions]
+          substitutions: attributes[:substitutions]
         }
       )
 
