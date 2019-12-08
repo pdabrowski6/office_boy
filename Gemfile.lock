@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    office_boy (0.0.2)
+    office_boy (0.0.3)
       rest-client
       sendgrid-ruby
 

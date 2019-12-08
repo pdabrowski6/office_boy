@@ -18,10 +18,10 @@ module OfficeBoy
                 email: attributes[:to_email],
                 name: attributes[:to_name]
               }],
-              subject: attributes[:subject]
+              subject: attributes[:subject],
+              dynamic_template_data: attributes[:dynamic_template_data]
             }
-          ],
-          substitutions: attributes[:substitutions]
+          ]
         }
       )
 

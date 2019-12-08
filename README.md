@@ -53,7 +53,7 @@ OfficeBoy.deliver(
     to_email: 'johndoe@somedomain.com',
     to_name: 'John Doe',
     subject: 'Welcome on my list!',
-    substitutions: {
+    dynamic_template_data: {
       first_name: 'John'
     }
   }
